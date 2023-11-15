@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beverlie's Exciting Webpage</title>
+    <style>
+        body {
+            background-color: #FF5733; /* Main background color */
+            color: #FFFFFF; /* Text color */
+            font-family: 'Arial', sans-serif; /* Font family */
+        }
+
+        h1 {
+            color: #FFD700; /* Header color */
+        }
+
+        p {
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #4CAF50; /* Button background color */
+            color: #FFFFFF; /* Button text color */
+            padding: 10px; /* Button padding */
+            border: none; /* Remove button border */
+            cursor: pointer; /* Add a pointer cursor on hover */
+        }
+
+        button:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Beverlie</h1>
+    <p>Isang masiyahing tao at masiglang indibidwal.</p>
+
+    <button onclick="showMessage()">Pindutin mo ako</button>
+    
+    <script>
+        function showMessage() {
+            alert("Ang ganda mo!");
+        }
+    </script>
+
+</body>
+</html>
